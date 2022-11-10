@@ -1,0 +1,32 @@
+1 mkdir git
+2 cd git
+3 git init
+4 nano readme
+5 git add readme
+6 ls .git/objects
+7 ls .git/objects/50
+8 git cat-file -p 505c607afc131de0e284cfa207f6d650e05651
+9 git cat-file -p 50155c607afc131de0e284cfa207f6d650e05651
+10 git add .
+11 git add all
+12 git add --all
+13 git status
+14 touch .gitignore
+15 nano .gitignore
+16 git status
+17 nano readme
+18 git status
+19 git add readme
+20 git commit -m "init commit"
+21 ls .git/objects/
+22 ls .git/objects/27
+23 ls .git/objects/76
+24 ls .git/objects/d2
+25 git cat-file -t 76498f5bb6a7e747d869e9fd96cb2a245d5db13c
+26 git cat-file -t d235e899ffe558a39eca49ecfb4cd56c34470e99
+27 git cat-file -t 27240e981d9218efe54f9abffbecb76b1d7e4ddf
+28 git show
+29 git log
+30 git log --oneline
+31 git show 27240e9
+32 nano instr.txt
